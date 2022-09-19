@@ -53,7 +53,6 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
     guard let cell = tableView.dequeueReusableCell(withIdentifier: CollectionViewTableViewCell.identifier, for: indexPath) as? CollectionViewTableViewCell else{
             return UITableViewCell()
         }
-        cell.textLabel?.text = "Hello"
         return cell
     }
     
